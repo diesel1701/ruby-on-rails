@@ -1,4 +1,10 @@
 /*
+ *= require_self
+ *= require styles
+ *= require_tree .
+*/
+ 
+ /*
  * This stylesheet is NOT my original work.
  * It was provided by the jumpstartlab tutorial here http://tutorials.jumpstartlab.com/assets/blogger/screen.css
 */
@@ -153,4 +159,5 @@ div.field_with_errors input{border: 3px solid red}
  *
  *= require_tree .
  *= require_self
+ *= require ./styles
  */
