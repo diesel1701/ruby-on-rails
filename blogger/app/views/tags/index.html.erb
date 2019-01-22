@@ -2,6 +2,8 @@
 
 <% @tags.each do |tag| %>
   <ul>
-    <li><%= link_to tag.name, tag_path(tag) %></li>
+    <li>
+      <%= link_to tag.name, tag_path(tag) %>
+    </li>
   </ul>
 <% end %>
